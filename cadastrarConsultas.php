@@ -83,9 +83,9 @@
 
 			<p>Digite o seu CFMV:
 				<input type="text" name="cfmv" size="20" maxlength="20" required></p>
-			<p>Escolhe a data da consulta:
+			<p>Escolha a data da consulta:
 				<input type="date" name="data" max="<?php Echo date("Y-m-d"); ?>" required> </p>
-			<p>Digite o horario:
+			<p>Digite o horário:
 				<input type="time" name="horario" required></p>
 			<p>Breve histórico:
 			<input type="text" name="historico" size="50" required>
@@ -101,9 +101,9 @@
 
 			<p>Digite o seu CFMV:
 				<input type="text" name="cfmv_ovl" size="20" maxlength="20" required></p>
-			<p>Escolhe a data da consulta:
+			<p>Escolha a data da consulta:
 				<input type="date" name="data" max="<?php Echo date("Y-m-d"); ?>" required> </p>
-			<p>Digite o horario:
+			<p>Digite o horário:
 				<input type="time" name="horario" required></p>
 			<p>Breve histórico:
 			<input type="text" name="historico" size="50" required>	
@@ -119,9 +119,9 @@
 
 			<p>Digite o seu CFMV:
 				<input type="text" name="cfmv_vac" size="20" maxlength="20" required></p>
-			<p>Escolhe a data da consulta:
+			<p>Escolha a data da consulta:
 				<input type="date" name="data" max="<?php Echo date("Y-m-d"); ?>" required> </p>
-			<p>Digite o horario:
+			<p>Digite o horário:
 				<input type="time" name="horario" required></p>
 			<p>Breve histórico:
 			<input type="text" name="historico" size="50" required>	
@@ -145,7 +145,7 @@
 				if(!$resposta){
 					echo "<h5>Falha na tentativa de cadastro!</h5>";
 				}else{
-					echo "<h5>Cadastro com sucesso!</h5>";
+					echo "<h5>Cadastrado com sucesso!</h5>";
 				}
 			}
 		}
@@ -164,7 +164,7 @@ if(isset($_POST['cfmv_ovl'])){
 				if(!$resposta){
 					echo "<h5>Falha na tentativa de cadastro!</h5>";
 				}else{
-					echo "<h5>Cadastro com sucesso!</h5>";
+					echo "<h5>Cadastrado com sucesso!</h5>";
 				}
 			}
 		}
@@ -183,7 +183,7 @@ if(isset($_POST['cfmv_ovl'])){
 				if(!$resposta){
 					echo "<h5>Falha na tentativa de cadastro!</h5>";
 				}else{
-					echo "<h5>Cadastro com sucesso!</h5>";
+					echo "<h5>Cadastrado com sucesso!</h5>";
 				}
 			}
 		}

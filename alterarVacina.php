@@ -7,7 +7,7 @@ require_once 'cabecalho.php';
 </br>
 <p><a href="alterarVacinaVaca.php">Bovino &#128046; </a><br>
 <a href="alterarVacinaCavalo.php">Equino &#128052;</a><br>
-<a href="alterarVacinaOvelha.php">Ovelha &#128017;</a><br></p>
+<a href="alterarVacinaOvelha.php">Ovino &#128017;</a><br></p>
 <br>
 </form>
 </body>

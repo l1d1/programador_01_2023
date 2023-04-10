@@ -11,13 +11,13 @@ if(isset($_POST['IDvasc_vac'])){
    	  while($linha=$consulta->fetch_assoc()){ 
 ?>
 <form id="cadanimal"  action="alterarVacinaVaca.php" method="POST">
-	<h1>Alterar Vacina</h1>
+	<h1>Alterar vacina</h1>
 </br>
-	<p>Nome da Vacina: <input type="text" name="nome" size="40" maxlength="40" value="<?php echo $linha['Nomevasc_vac']; ?>"></p>
-	<p>Tipo da Vacina: <input type="text" name="tipo" size="40" maxlength="40" value="<?php echo $linha['Tipovasc_vac']; ?>"></p>
-	<p>Data da Aplicação: <input type="date" name="data" value="<?php echo $linha['Dataapli_vac']; ?>"></p>
-	<p>Proxima Aplicação: <input type="date" name="proxima" value="<?php echo $linha['proximaapli_vac']; ?>"></p>
-  <p>Identificação Bovino: <input type="text" name="identificacao" size="30" maxlength="30" value="<?php echo $linha['Identificacao_vac']; ?>"></p>
+	<p>Nome da vacina: <input type="text" name="nome" size="40" maxlength="40" value="<?php echo $linha['Nomevasc_vac']; ?>"></p>
+	<p>Tipo da vacina: <input type="text" name="tipo" size="40" maxlength="40" value="<?php echo $linha['Tipovasc_vac']; ?>"></p>
+	<p>Data da aplicação: <input type="date" name="data" value="<?php echo $linha['Dataapli_vac']; ?>"></p>
+	<p>Próxima aplicação: <input type="date" name="proxima" value="<?php echo $linha['proximaapli_vac']; ?>"></p>
+  <p>Identificação bovino: <input type="text" name="identificacao" size="30" maxlength="30" value="<?php echo $linha['Identificacao_vac']; ?>"></p>
 		
        <input type="hidden" name="IDvasc_vac" value="<?php echo $linha['IDvasc_vac']; ?>">
 	   <h3><input type="submit" onclick='mostra()' class="enviar" name="Cadastrar"></h3>

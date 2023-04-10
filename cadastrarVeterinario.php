@@ -29,9 +29,9 @@
 
 		<p> Nome do Veterinário: <input type="text" name="nomevetovl" size="80" maxlength="80" required></p>
 
-		<p>Nascimento: <input type="date" name="nasci" required></p>
+		<p>Data de nascimento: <input type="date" name="nasci" required></p>
 
-		<p>Data da visita do Veterinário: <input type="date" name="data" required></p>
+		<p>Data da visita do veterinário: <input type="date" name="data" required></p>
 		<p>Telefone: <input type="text" name="telovl" placeholder="(99)9999-9999" required></p>
 
 		<p>Cuidados: <input type="text" name="cuidadosovl" size="80" maxlength="80" required></p>

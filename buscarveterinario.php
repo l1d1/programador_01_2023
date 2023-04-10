@@ -39,7 +39,7 @@
 
 			$consulta=buscarVeterinarioCav($busca);
 			if (!$consulta) {
-				echo "<h5>Nenhum Veterinário correspondente!</h5>";
+				echo "<h5>Nenhum veterinário correspondente!</h5>";
 			}else{
 
 				echo "<table id='buscaBicho'>";
@@ -82,7 +82,7 @@
 
 			$consulta=buscarVeterinarioVac($busca);
 			if (!$consulta) {
-				echo "<h5>Nenhum Veterinário correspondente!</h5>";  	
+				echo "<h5>Nenhum veterinário correspondente!</h5>";  	
 			}else{
 
 				echo "<table id='buscaBicho'>";
@@ -124,7 +124,7 @@
 
 			$consulta=buscarVeterinarioOvl($busca);
 			if (!$consulta) {
-				echo "<h5>Nenhum Veterinário correspondente!</h5>";
+				echo "<h5>Nenhum veterinário correspondente!</h5>";
 			}else{
 
 
